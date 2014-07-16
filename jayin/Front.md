@@ -29,6 +29,23 @@ public function execute($action);
 
 由此可见，如要要做更多的预处理，可以这里(dispatch()之前)添加你自己的中间件(Action..)
 
-如何写中间件？
+### 工作流程
+调用dispatch($action, $error) 后
+现执行$result = $this->execute($pre_action);
 
-必须return 一个Action
+后执行自定义的一个$action
+while ($action) {
+			$action = $this->execute($action);
+}
+
+如何不断只执行？
+
+ 
+
+### 如何写中间件？
+
+必须return 一个Action or ? view
+
+
+
+
