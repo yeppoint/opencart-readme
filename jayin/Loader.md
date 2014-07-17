@@ -11,6 +11,19 @@
 
 
 ### Loader.model($model)
+加载model.注意的是：他这里对model的注册(入到)全局$register中
+Opencart做了字符串处理，访问的时候$register->xx_yy_zz
+
+举个例子：
+在model/catalog/information.php
+生成"model_catalog_information"
+对应的$class =>ModelCatalogInfomation
+//注入
+$register.set("model_catalog_information",new )  
+//访问
+$this->model_catalog_information  
+  
+
 
 
 
