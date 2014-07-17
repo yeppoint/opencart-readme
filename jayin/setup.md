@@ -2,7 +2,7 @@
     1.1 加载配置文件config.php，各种常量
     1.2 加载startup.php，引入各种必要的文件(./system/engine ,./system/library)
 
-2. 整体流程
+2. 整体流程(v1.5.6,master分支大致也是这个执行流程)
 
     2.1 创建Registry对象
 

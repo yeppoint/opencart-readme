@@ -49,7 +49,7 @@ Action可以执行后返回一个Action,这样就可以链式执行
 2. 在Middleware.php中
 ```php
 //注意，由于文件目录在/controller/commoncommon.php/，加入一中间件Middleware类的命名方式必须是Controllercommonmiddleware
-//否则无法自动加载到该类
+//否则无法自动加载到该类,原因?请看Action构造的时候$class(控制器)的生成规则
 class Controllercommonmiddleware extends Controller{
 	public function index(){
 		echo "Hello ,this is MiddleWare!";

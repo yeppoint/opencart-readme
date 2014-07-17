@@ -7,4 +7,12 @@
     headers_list() - Returns a list of response headers sent (or ready to send)
     header() - 发送一个自定义的http报文 for a more detailed discussion of the matters involved.
 
+* 先注入key-value($data),然后加载模板
+
+
+### Loader.model($model)
+
+
+
+
 
