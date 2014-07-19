@@ -1,12 +1,14 @@
 ~~Action + Front作用~~
 ~~如何调试? 日志~~
-执行后,返回view,action,如何拼接字符串?
+~~执行后,返回view,action,如何拼接字符串?~~
 
-小修改About Us(information/information)
+~~小修改About Us(information/information)~~
 
-修改底部
+~~修改底部~~
 
-spl_autoload
+~~spl_autoload~~
 
-Loader + Model 分析
+~~Loader + Model 分析~~
+
+用户登录注册流程，数据的处理
 

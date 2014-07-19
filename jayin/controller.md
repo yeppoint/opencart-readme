@@ -26,3 +26,11 @@ class ControllerCommonMiddleware extends Controller{
 }
 ```
 
+Note:  
+1. Document 对象
+  在主controller中，设置所有的$this->document，子controller就直接$this->doucment->getXXX()
+ 
+
+
+
+
