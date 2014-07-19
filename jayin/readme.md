@@ -18,7 +18,7 @@ image/ 包含了所有图片，图片上传自admin [Image Manager](http://docs.
 
 **Note**  
 1. 如果你在只搞frontend，就不需要动admin/ ,反之亦然  
-2.
+
 
 
 
