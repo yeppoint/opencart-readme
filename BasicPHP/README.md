@@ -1,6 +1,17 @@
 **opencart中要了解的PHP基础知识**
 
-1. 其中一种创建类的方法
+1. opencart中用到的built-in function
+
+```
+explode
+is_dir
+array_shift
+func_get_args
+
+```
+
+
+2. 其中一种创建类的方法
 
 ```
 class FooBar {
